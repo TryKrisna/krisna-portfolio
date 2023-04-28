@@ -1,14 +1,13 @@
-import Navbar from '../../components/Navbar'
-import Particlejs from '../../components/Particlejs'
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
-
-import Main from '../../components/Main';
-import Skills from '../../components/Skills';
-import Projects from '../../components/Projects';
-import Footer from '../../components/Footer';
-
-export default function App({ Component, pageProps }: AppProps) {
+import React from 'react';
+import ParticleField from 'react-particles-webgl';
+ 
+/**
+ * The default configuation for the ParticleField component
+ *
+ * Any option passed in via props will overwrite the default config
+ */
+  // <ParticleField config={config} />
+const Particlejs = () => {
   const config = {
     showCube: false,
     dimension: "3D",
@@ -54,15 +53,9 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   };
   return (
-    <>
-      <Navbar />
-      <Main/>
-      <Skills/>
-      <Projects/>
-      {/* <ParticleField config={config} /> */}
-      {/* <Particlejs/> */}
-      <Component {...pageProps} />
-      <Footer/>
-    </>
-  )
-}
+    <ParticleField config={config} />
+  );
+};
+export default Particlejs;
+
+
