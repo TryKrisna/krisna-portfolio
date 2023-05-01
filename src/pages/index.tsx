@@ -13,7 +13,9 @@ export default function Home() {
           Krisna portfolio
         </title>
         <meta name='descriptoin' content='Blockchain enginer in cambodia'/>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"/>
         <link ref="icon" href='../../logo.png'></link>
+        
       </Head>
       {/* <Navbar/> */}
       {/* <Main/> */}

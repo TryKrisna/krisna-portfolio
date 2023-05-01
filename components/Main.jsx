@@ -4,14 +4,12 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Script from 'next/script'
+import Navbar from './Navbar';
 const Main = () => {
   return (<>
-    <Script  id="show-banner" strategy='lazyOnload'>
+  <Script  id="show-banner" strategy='lazyOnload'>
         {`
-
-
 var pJS = function(tag_id, params){
-
     var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
   
     /* particles.js variables with default values */
@@ -1586,7 +1584,7 @@ particlesJS("particles-js", {
       },
       "size": {
         // pointer size 
-        "value": 5,
+        "value": 8,
         "random": true,
         "anim": {
           "enable": false,
@@ -1604,6 +1602,7 @@ particlesJS("particles-js", {
       },
       "move": {
         "enable": true,
+        // canvas speed
         "speed": 3,
         "direction": "none",
         "random": false,
@@ -1659,27 +1658,26 @@ particlesJS("particles-js", {
     "retina_detect": true
   });
   function callback() {
-
   }
   requestAnimationFrame(callback);
 `
 }
 
     </Script>
-    <div id="particles-js" className='w-full h-screen text-center bg-blue-200 relative h-full w-full'>
-       
-        {/* <div id='home' className='w-full h-screen text-center absolute top-4 right-3 bg-red-500'> */}
-        {/* w-full h-full  */}
-      <div className='mx-auto p-2 flex justify-center items-center absolute justify-items-center main-text'>
-        <div>
+    {/* xl:bg-blue-300  bg-blue-200 */}
+    <div id="particles-js" className='w-full h-screen text-centerrelative h-full w-full bg-blue-200'>
+      {/* <Navbar/> */}
+    {/* max-w-[1240px] w-full h-full  */}
+      <div className=' mx-auto p-2 flex justify-center items-center absolute justify-items-center main-text '>
+        <div className='text-center'>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             {/* LET&#39;S BUILD SOMETHING TOGETHER */}
           </p>
-          <h1 className='py-4 text-gray-700'>
+          <h1 className='py-4 text-gray-700 xl:text-sm:text-[30px] text-3xl xl:text-6xl xl:py-3 lg:text-5xl lg:py-20 lg:text-red-600 text-lg py-0'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Krisna</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Blockchain Developer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+          <h1 className='py-1 text-gray-700 sm:text-[18px] xl:text-6xl xl:py-3  lg:text-5xl lg:py-2 text-lg'>A Blockchain Developer</h1>
+          <p className='py-2 text-gray-600 sm:max-w-[70%] m-auto sm:text-[16px] py-0'>
             I’m focused on Data encryption, Blockchain API gateway 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
