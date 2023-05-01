@@ -24,7 +24,7 @@ const Skills = () => {
             skills.map((item,i)=>(
               
 
-          <div key={i} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 relative'>
+          <div key={i} className='bg-white p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 relative'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={item.image} width='64' height='64' alt={item.name} />
@@ -33,7 +33,7 @@ const Skills = () => {
                 <h3>{item.name}</h3>
               </div>
             </div>
-            <span className='absolute right-4 bottom-4'>Meduim</span> 
+            {/* <span className='absolute right-4 bottom-4'>Meduim</span>  */}
           </div>
 
 

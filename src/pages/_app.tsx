@@ -4,9 +4,11 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 
 import Main from '../../components/Main';
+import Mains from '../../components/Mains';
 import Skills from '../../components/Skills';
 import Projects from '../../components/Projects';
 import Footer from '../../components/Footer';
+import About from '../../components/About';
 
 export default function App({ Component, pageProps }: AppProps) {
   const config = {
@@ -57,6 +59,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Navbar />
       <Main/>
+      {/* <Mains/> -=*/}
+      <About/>
       <Skills/>
       <Projects/>
       {/* <ParticleField config={config} /> */}

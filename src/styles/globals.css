@@ -1,19 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+/*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
+
+
+
+
+
 html {
   scroll-behavior: smooth;
+   /*font: normal 75% Arial, Helvetica, sans-serif;*/
+   font-family: 'Fredoka' !important;
   /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Kantumruy Pro', sans-serif;
+  
+  /* font-family: 'Kantumruy Pro', sans-serif;*/
 }
-
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    @apply font-[Fredoka]
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -21,8 +35,9 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+    @apply text-4xl sm:text-5xl md:text-6xl
   }
+
 
   h2 {
     @apply text-3xl sm:text-4xl
@@ -40,9 +55,12 @@ html {
 
 body {
   margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
+  /*font: normal 75% Arial, Helvetica, sans-serif;*/
+  font-family: 'Fredoka' !important;
+  
   background-color: #F7F7F7;
   overflow-x-scroll:hidden;
+  @apply bg-gray-100
 }
 
 canvas {
