@@ -14,7 +14,7 @@ const About = () => {
           <h2 className='font-medium xl:text-3xl lg:py-2 lg:text-2xl md:text-2xl md:py-1 sm:py-0 py-0'>Who I Am</h2>
           {/* <p className='py-2 text-gray-600  xl:text-xl xl:text-orange-400 md:text-sm sm:text-blue-400 lg:text-lg  lg:text-red-300 md:text-blue-800 md:text-lg sm:text-md sm:text-pink-500'> */}
           <p className='py-2 text-gray-600  xl:text-xl md:text-sm  lg:text-lg    md:text-lg sm:text-md '>
-            Since I was a scholarship student at Korean Software HRD center. When I study fullstack development course I am a backend developer focus on srping boot, and UI I am doing it with React and I know UX/UI , and for advance course I am study Blockchain development course which is focus on Private blockchain call Hyperledger fabrice. Role in project I am chaincode/smartcontract developer, support infra setup and write API gateway connet to Blochain API.
+          Since I was a scholarship student at the Korean Software HRD Center. When I study a full-stack development course, I am a backend developer focused on Spring Boot, and on the front-end, I am doing it with React, and I know UX and UI. For an advanced course, I am studying a blockchain development course that focuses on private blockchains using Hyperledger Fabric. Role in the project: I am a chaincode/smartcontract developer, support infra setup, and write API gateway connections to the Blochain API.
             {/* I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -25,7 +25,7 @@ const About = () => {
             specific language, but choosing the best tool for the job. */}
           </p>
           <p className='py-2py-2 text-gray-600  xl:text-xl md:text-sm  lg:text-lg    md:text-lg sm:text-md'>
-          Became a developer I think that. Best developer not just know many language but a good developer can sloved many problem and every language, Algorithum is more important than coding.
+          I think that "the best developer does not just know many languages, but a good developer can solve many problems in many situation.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
