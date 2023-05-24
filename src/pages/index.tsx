@@ -14,7 +14,7 @@ export default function Home() {
         </title>
         <meta name='descriptoin' content='Blockchain enginer in cambodia'/>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-        <link ref="icon" href='../../logo.png'></link>
+        <link rel="shortcut icon" href='https://img.icons8.com/?size=512&id=FHQYz1px0h83&format=png'></link>
         
       </Head>
       {/* <Navbar/> */}
