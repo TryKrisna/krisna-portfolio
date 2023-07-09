@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ProfileImg from "../public/img/1myprofile.png";
-import { MdWork } from "react-icons/md";
 
 import {SiGithub,SiInstagram,SiFacebook,SiGmail} from "react-icons/si";
 const Banner = () => {
