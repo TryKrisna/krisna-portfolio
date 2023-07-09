@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ProfileImg from "../public/img/1myprofile.png";
+import { MdWork } from "react-icons/md";
 
 import {SiGithub,SiInstagram,SiFacebook,SiGmail} from "react-icons/si";
 const Banner = () => {
@@ -29,7 +30,6 @@ const Banner = () => {
               rel='noreferrer'
               className="p-2"
             >
-              {/* shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 */}
               <div className='rounded-full '>
                 <SiGithub />
               </div>
@@ -40,8 +40,7 @@ const Banner = () => {
               rel='noreferrer'
               className="p-2"
             >
-              {/* shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 */}
-              <div className='rounded-full '>
+               <div className='rounded-full '>
                 <SiInstagram />
               </div>
             </a>
@@ -51,8 +50,7 @@ const Banner = () => {
               rel='noreferrer'
               className="p-2"
             >
-              {/* shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 */}
-              <div className='rounded-full '>
+             <div className='rounded-full '>
                 <SiFacebook />
               </div>
             </a>
@@ -62,9 +60,7 @@ const Banner = () => {
               
               rel='noreferrer'
               className="p-2"
-            >
-              {/* shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 */}
-              <div className='rounded-full '>
+            >              <div className='rounded-full '>
                 <SiGmail />
               </div>
             </a>
