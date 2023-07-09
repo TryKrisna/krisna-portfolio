@@ -15,13 +15,13 @@ const Projects = () => {
           img={storyMe.src}
           title="StoryMe"
           des="Reading Every time every where only one click"
-          link="https://amazonclone.reactbd.com/"
+          link="#"
         />
         <ProjectCard
           img={healthChain.src}
           title="HealthChain"
           des="Build with private blockchain for secure patient data"
-          link="https://reactbd.com/"
+          link="#"
         />
 
       </div>
